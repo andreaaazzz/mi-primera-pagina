@@ -6,7 +6,7 @@
     --color-fondo-suave: #f4f7f6;
     --transicion: all 0.3s ease;
 }
-
+/* resetear los estilos de navegador*/
 *{
     padding: 0;
     margin: 0;
@@ -35,4 +35,16 @@ header{
 header a{
     color: var(--color-texto);
     text-decoration: none;
+}
+/* elemento de tipo selector */
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+nav ul li a {
+    color: var(--color-secundario);
+    text-decoration: none;
+    font-size : 1rem
+
 }
